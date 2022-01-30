@@ -1,0 +1,98 @@
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  body {
+    text-align: center;
+ 
+  }
+  .main-header {
+    padding-bottom: 15%;
+    width: 100%;
+    background-size: cover;
+    background-image: url("../images/header.jpg");
+    background-attachment: fixed;
+    position: relative;
+  }
+  /* ​ */
+  header {
+    background-color: #2B2B2B;
+    height: 50px;
+  }
+  header ul {
+    margin: 0;
+    padding: 0;
+  }
+  header ul a {
+      text-decoration: none;
+      color: white;
+  }
+  header li {
+    list-style: none;
+  }
+ .left{
+    float: left;
+    width: auto;
+    padding-left: 25px;
+    padding-top: 10px;
+  }
+  .right{
+    float: right;
+    width: auto;
+    padding-right: 25px;
+    padding-top: 10px;
+  }
+  header ul:after {
+  }
+  /* Implémentation de la partie d'en-tête */
+  .main-header img {
+  /* Implémentation de l'image principale (image des caractères blancs "Achieve") */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 13%;
+  }
+
+
+  .about h1{
+  /* About Implémentation de la partie Achieve */
+  font-size: 1.5rem;
+  }
+  .about p{
+    /* About Implémentation de la partie Achieve */
+    font-size: 0.8rem;
+    }
+  /* ​ */
+  .function {
+      background-color: #D3D3D3;
+  }
+  .function-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .function-image {
+     margin: auto;
+  }
+  /* Implémentation de la partie Function */
+  footer {
+  /* Implémentation du pied de page */
+  bottom: 0;
+  background-color: #283A4B;
+  height: 70px;
+  padding-top: 15px;
+  text-align: center;
+  position: relative;
+  }
+
+  footer p{
+      font-size: 0.8rem;
+      
+  }
+  footer div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+transform: translate(-50%, -50%);
+  }
